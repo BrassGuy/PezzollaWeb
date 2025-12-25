@@ -1,0 +1,302 @@
+{
+  "project": "Pezzolla Web Studio",
+  "inspiration": "Abetka",
+  "vibe": ["earth", "nature", "science", "typography"],
+  "theme": "Periodic Table meets Natural Sciences",
+  "branding": {
+    "logo": {
+      "path": "./Media/mainlogo_transparent.png",
+      "usage": ["navbar", "footer", "favicon", "social_sharing"],
+      "alt_text": "Pezzolla Web Studio main logo"
+    }
+  },
+  "typography": {
+    "google_fonts": {
+      "nunito": {
+        "weights": [300, 400, 500],
+        "purpose": "Primary body text, navigation, forms"
+      },
+      "playfair_display": {
+        "weights": [400, 500, 700],
+        "styles": ["italic"],
+        "purpose": "Headings, hero text, display typography"
+      },
+      "quicksand": {
+        "weights": [300, 500],
+        "styles": ["italic"],
+        "purpose": "Accent elements, quotes, visual rhythm"
+      }
+    },
+    "usage": {
+      "body_text": {
+        "font": "Nunito",
+        "weight": 300,
+        "size": {
+          "desktop": "18px",
+          "mobile": "16px"
+        }
+      },
+      "headings": {
+        "font": "Playfair Display",
+        "weight": 500,
+        "sizes": {
+          "h1": "64px",
+          "h2": "36px",
+          "h3": "24px"
+        }
+      },
+      "buttons": {
+        "font": "Nunito",
+        "weight": 400
+      },
+      "navigation": {
+        "font": "Nunito",
+        "weight": 500
+      },
+      "accent_text": {
+        "font": "Quicksand",
+        "weight": 500,
+        "style": "italic"
+      },
+      "quotes": {
+        "font": "Quicksand",
+        "weight": 300
+      }
+    },
+    "responsive_typography": {
+      "method": "clamp() and vw units",
+      "hero_text": "Responsive sizing using viewport units"
+    }
+  },
+  "colors": {
+    "primary": "#2C2C2C",
+    "secondary": "#88B04B",
+    "accent_1": "#B54325",
+    "accent_2": "#1E4D2B",
+    "background": "#FAF3E0",
+    "card_border": "#D6CFC4"
+  },
+  "textures": {
+    "background": "Paper texture / recycled paper with subtle fibers",
+    "overlays": ["grain", "topographic maps", "organic noise"]
+  },
+  "layout": {
+    "structure": [
+      "Intro Loader Screen",
+      "Hero Section",
+      "Feature Grid (Element Cards)",
+      "Project Case Studies",
+      "About Section ('The Formula')",
+      "Footer with Periodic Table of Services"
+    ],
+    "hero": {
+      "elements": ["Large typography card (e.g., 'Wd')", "Tagline", "Subtext"],
+      "text": {
+        "title": "Crafting Elemental Web Experiences.",
+        "tagline": "From code to carbon."
+      }
+    },
+    "footer": {
+      "layout": "Grid",
+      "content": "Interactive periodic table of services"
+    }
+  },
+  "cards": {
+    "style": "Periodic Table-inspired",
+    "structure": {
+      "index": "Top left (small Quicksand)",
+      "weight_number": "Top right (small Quicksand)",
+      "element": "Center Playfair Display (e.g., 'Wd')",
+      "title": "Below in Nunito"
+    },
+    "hover_effects": {
+      "scale": 1.02,
+      "shadow": "Subtle terracotta or sage glow",
+      "transition": "0.3s ease"
+    },
+    "card_examples": [
+      {
+        "index": "6",
+        "weight": "12.011",
+        "symbol": "Wd",
+        "title": "Web Design",
+        "image": "./Media/Web Design.png"
+      },
+      {
+        "index": "9",
+        "weight": "14.007",
+        "symbol": "Ux",
+        "title": "User Experience",
+        "image": "./Media/Ux.png"
+      },
+      {
+        "index": "10",
+        "weight": "20.180",
+        "symbol": "Ui",
+        "title": "User Interface",
+        "image": "./Media/Ui.png"
+      },
+      {
+        "index": "15",
+        "weight": "18.998",
+        "symbol": "Se",
+        "title": "SEO & Strategy",
+        "image": "./Media/SEO.png"
+      },
+      {
+        "index": "18",
+        "weight": "39.948",
+        "symbol": "Wa",
+        "title": "Web Apps",
+        "image": "./Media/webapps.png"
+      },
+      {
+        "index": "20",
+        "weight": "40.078",
+        "symbol": "Wm",
+        "title": "Web Management",
+        "image": "./Media/WebManagement.png"
+      }
+    ]
+  },
+  "animations": {
+    "scroll_triggers": ["fade-in", "masking", "translate-y", "parallax"],
+    "card_hover": ["scale", "glow", "tilt"],
+    "hero": ["letter-by-letter animation", "subtle element drift"],
+    "microinteractions": {
+      "cards": "Hover: lift & glow. Click: expand or flip",
+      "icons": "Pulse or color bloom"
+    },
+    "special_effects": {
+      "background": ["SVG drawings (roots, circuits, constellations)", "topo lines"],
+      "easter_eggs": "Hidden glyphs and easter messages on card hover"
+    }
+  },
+  "mobile": {
+    "card_layout": "Vertical stacking",
+    "responsive_typography": true,
+    "navigation": "Hamburger with morph animation",
+    "touch_targets": "Increased size for accessibility",
+    "performance": "Lazy loading, responsive images"
+  },
+  "extras": {
+    "dark_mode": {
+      "enabled": true,
+      "colors": {
+        "background": "#1A1A1A",
+        "text": "#FAF3E0",
+        "accents": "#88B04B"
+      }
+    },
+    "live_feed": {
+      "name": "Creative Lab Feed",
+      "description": "Stream of design experiments and real-time progress"
+    },
+    "meta": {
+      "site_speed": "Optimized",
+      "seo_ready": true,
+      "aio_ready": true
+    }
+  },
+  "hero_landing_grid": {
+    "project": "Pezzolla Web Studios",
+    "section": "Hero / Landing Grid",
+    "design_intent": "Recreate the Abetkaua-style hero section using modular, SVG-based card components. Each letter or symbol is a large display block styled to resemble the original typographic style, but themed for nature, science, and design. Below the grid, display the text 'Pezzolla Web Studios' in a clean, modern typeface.",
+    "structure": {
+      "component": "HeroSection",
+      "layout": "CSS Grid (6 columns on desktop, 3 on tablet, 2 on mobile)",
+      "children": [
+        {
+          "type": "GlyphCard",
+          "repeat": 18,
+          "source": "SVGs representing elemental symbols, characters, or custom letters (e.g., Wd, Ui, Ds, etc.)",
+          "animation": "optional hover scaling, fade-in staggered on load"
+        },
+        {
+          "type": "OverlayText",
+          "text": "Pezzolla Web Studios",
+          "position": "centered below card grid",
+          "font": {
+            "family": "Nunito",
+            "weight": 500,
+            "size": "clamp(1.2rem, 2.5vw, 2.4rem)",
+            "color": "#2C2C2C",
+            "letter_spacing": "0.05em"
+          },
+          "margin_top": "2rem"
+        }
+      ]
+    },
+    "components": {
+      "GlyphCard": {
+        "props": {
+          "letter": "string",
+          "svgPath": "string",
+          "altText": "string"
+        },
+        "style": {
+          "width": "100%",
+          "aspect_ratio": "1/1",
+          "background": "transparent",
+          "display": "flex",
+          "align_items": "center",
+          "justify_content": "center"
+        },
+        "svg_style": {
+          "fill": "#000000",
+          "max_width": "100%",
+          "height": "auto"
+        }
+      },
+      "HeroSection": {
+        "background": "#7089A1",
+        "padding": "4rem 2rem",
+        "grid": {
+          "columns": {
+            "desktop": 6,
+            "tablet": 3,
+            "mobile": 2
+          },
+          "gap": "1rem"
+        },
+        "responsive": true,
+        "position": "relative",
+        "overlayText": {
+          "text": "Pezzolla Web Studios",
+          "textAlign": "center",
+          "paddingTop": "2rem"
+        }
+      }
+    },
+    "fonts": [
+      {
+        "name": "Nunito",
+        "usage": "Body text and UI labels"
+      },
+      {
+        "name": "Playfair Display",
+        "usage": "Display headings and hero elements"
+      },
+      {
+        "name": "Quicksand",
+        "usage": "Accent decorative text or callouts"
+      }
+    ],
+    "svg_notes": {
+      "format": "Use individual SVGs for each glyph or group (e.g., Wd.svg)",
+      "optimize": "Run through SVGOMG or SVGO to reduce size",
+      "accessibility": "Include alt text for screen readers"
+    },
+    "animations": {
+      "onLoad": "Staggered fade-in using CSS keyframes or Framer Motion",
+      "onHover": "Subtle scale (1.05x) and brightness increase"
+    },
+    "responsive": {
+      "breakpoints": {
+        "mobile": "max-width: 640px",
+        "tablet": "max-width: 1024px"
+      },
+      "behavior": "Grid collapses to fewer columns; text scales using clamp or viewport units"
+    }
+  }
+}
